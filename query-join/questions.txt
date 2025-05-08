@@ -52,7 +52,7 @@ INNER JOIN
 INNER JOIN 
      `departments` ON `departments`.`id` = `degrees`.`department_id`
 ORDER BY 
-     `students`.`name` AND `students`.`surname`;
+     `students`.`name`, `students`.`surname`;
 
 
 5. Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti
